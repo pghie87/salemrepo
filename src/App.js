@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Emir Salma Prayogi
+          Emir Salma Prayogi Masya Allah
         </a>
       </header>
     </div>
