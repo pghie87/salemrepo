@@ -1,0 +1,35 @@
+curl -D- \
+   -X GET \
+   -H "Authorization: Basic cGdoaWU4N0BnbWFpbC5jb206cm9pYnpQTEo5SktZc09rdGNuUlRDMTg5" \
+   -H "Content-Type: application/json" \
+   "https://emsal.atlassian.net/rest/api/2/issue/createmeta"
+
+   token: roibzPLJ9JKYsOktcnRTC189
+
+
+   curl -D- \
+   -X GET \
+   -H "Authorization: Basic cGdoaWU4N0BnbWFpbC5jb206cm9pYnpQTEo5SktZc09rdGNuUlRDMTg5" \
+   -H "Content-Type: application/json" \
+   'https://emsal.atlassian.net/rest/agile/1.0/board/trial/project'
+
+
+   curl --request GET \
+  --url 'https://emsal.atlassian.net/rest/agile/1.0/board/trial/project' \
+  --header 'Accept: application/json'
+
+  curl --request GET \
+  --url 'https://emsal.atlassian.net/rest/agile/1.0/epic/none/issue' \
+  --header 'Accept: application/json'
+
+
+
+   curl -D- \
+   -X GET \
+   -H "Authorization: Basic cGdoaWU4N0BnbWFpbC5jb206cm9pYnpQTEo5SktZc09rdGNuUlRDMTg5" \
+   -H "Content-Type: application/json" \
+   'https://emsal.atlassian.net/rest/api/2/search?jql=project=trial&fields=key,summary,description'
+
+   curl -D- -u username:password -X GET \
+-H "Content-Type: application/json" \
+"http://localhost:7123/rest/api/2/search?jql="
